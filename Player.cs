@@ -19,7 +19,7 @@ namespace RPSLS
 
 
         //get choice from user 
-        public int UserInput()
+        public virtual int UserInput()
         {
             Console.WriteLine(name + " Please enter your weapon");
             Console.WriteLine("Enter 0 for Rock");

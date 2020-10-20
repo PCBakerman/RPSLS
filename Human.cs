@@ -4,12 +4,15 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Human : Player 
+    class Human : Player
     {
 
-        public class Human()
+        public Human()
+        {
             Console.WriteLine("Please enter youre name!");
-            namespace = Console.ReadLine();
+            name = Console.ReadLine();
 
+
+        }
     }
 }

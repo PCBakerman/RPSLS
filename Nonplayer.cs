@@ -15,8 +15,8 @@ namespace RPSLS
             Random num = new Random();
             int NonPlayerTurn = num.Next(0, 5);
             return NonPlayerTurn;
-    {
-       
+
+
         }
 
 
